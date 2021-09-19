@@ -2,98 +2,98 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
-  <meta name="description" content="frontend mentor challenge launch countdown time accepted by avatarfreak">
-  <!-- description about site  -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+    <meta name="description" content="frontend mentor challenge launch countdown time accepted by avatarfreak">
+    <!-- description about site  -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./app/css/main.css">
-  <link rel="stylesheet" href="./app/css/normalize.css">
-  <script src="app/js/script.js" defer></script>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./app/css/main.css">
+    <link rel="stylesheet" href="./app/css/normalize.css">
 
-  <title>Frontend Mentor | Launch countdown timer</title>
+    <title>Frontend Mentor | Launch countdown timer</title>
 </head>
 
 <body>
-  <div class="wrapper">
-    <header>
-      <!-- Heading -->
-      <h1>We're launching soon</h1>
-    </header>
+    <div class="wrapper">
+        <header>
+            <!-- Heading -->
+            <h1>We're launching soon</h1>
+        </header>
 
-    <!-- Countdown Section  -->
-    <main class="countdown">
-      <!-- Days Section -->
-      <figure class="card">
-        <div class="card__content days" data-days="08">
-          <div class="card__top figure front"></div>
-          <div class="card__bottom figure back"></div>
-          <span class="days">08</span>
-        </div>
-        <figcaption>Days</figcaption>
-      </figure>
+        <!-- Countdown Section  -->
+        <main class="countdown">
+            <!-- Days Section -->
+            <figure class="card">
+                <div class="card__content days" data-days="08">
+                    <div class="flip day" data-days="08" data-days-next="08"> </div>
+                    <span class="semi-circle"></span>
+                    <span class="days"></span>
+                </div>
+                <figcaption>Days</figcaption>
+            </figure>
 
-      <!-- Hours Section -->
-      <figure class="card">
-        <div class="card__content hours" data-hours="23">
-          <div class="card__top"></div>
-          <div class="card__bottom"></div>
-          <span class="hours">23</span>
-        </div>
-        <figcaption>Hours</figcaption>
-      </figure>
+            <!-- Hours Section -->
+            <figure class="card">
+                <div class="card__content hours" data-hours="23">
+                    <div class="flip hour" data-hours="23" data-hours-next="23"> </div>
+                    <span class="semi-circle"></span>
+                    <span class="hours"></span>
+                </div>
+                <figcaption>Hours</figcaption>
+            </figure>
 
-      <!-- Minutes Section -->
-      <figure class="card">
-        <div class="card__content minutes" data-minutes="55">
-          <div class="card__top"></div>
-          <div class="card__bottom"></div>
-          <span class="minutes">55</span>
-        </div>
-        <figcaption>Minutes</figcaption>
-      </figure>
+            <!-- Minutes Section -->
+            <figure class="card">
+                <div class="card__content minutes" data-minutes="55">
+                    <div class="flip minute" data-minutes="55" data-minutes-next="55"> </div>
+                    <span class="semi-circle"></span>
+                    <span class="minutes"></span>
+                </div>
+                <figcaption>Minutes</figcaption>
+            </figure>
 
-      <!-- Seconds Section -->
-      <figure class="card">
-        <div class="card__content seconds" data-seconds="41">
-          <div class="card__top"></div>
-          <div class="card__bottom"></div>
-          <span class="seconds">41</span>
-        </div>
-        <figcaption>Seconds</figcaption>
-      </figure>
-    </main>
+            <!-- Seconds Section -->
+            <figure class="card">
+                <div class="card__content seconds" data-seconds="41">
+                    <div class="flip second" data-seconds="41" data-seconds-next="41"> </div>
+                    <span class="semi-circle"></span>
+                    <span class="seconds"></span>
+                </div>
+                <figcaption>Seconds</figcaption>
+            </figure>
+        </main>
 
-    <footer>
-      <ul class="footer footer__social">
-        <li class="footer__item">
-          <a href="#!" class="footer__link">
-            <img src="./images/icon-facebook.svg" alt="facebook">
-          </a>
-        </li>
-        <li class="footer__item">
-          <a href="#!" class="footer__link">
-            <img src="./images/icon-pinterest.svg" alt="pinterest">
-          </a>
-        </li>
-        <li class="footer__item">
-          <a href="#!" class="footer__link">
-            <img src="./images/icon-instagram.svg" alt="instagram">
-          </a>
-        </li>
-      </ul>
+        <footer>
+            <ul class="footer footer__social">
+                <li class="footer__item">
+                    <a href="#!" class="footer__link">
+                        <img src="./images/icon-facebook.svg" alt="facebook">
+                    </a>
+                </li>
+                <li class="footer__item">
+                    <a href="#!" class="footer__link">
+                        <img src="./images/icon-pinterest.svg" alt="pinterest">
+                    </a>
+                </li>
+                <li class="footer__item">
+                    <a href="#!" class="footer__link">
+                        <img src="./images/icon-instagram.svg" alt="instagram">
+                    </a>
+                </li>
+            </ul>
 
-      <div class="attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-        Coded by <a href="https://www.github.com/avatarfreak">avatarfreak</a>.
-      </div>
-    </footer>
-  </div>
+            <div class="attribution">
+                Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+                Coded by <a href="https://www.github.com/avatarfreak">avatarfreak</a>.
+            </div>
+        </footer>
+    </div>
+    <script src="app/js/scripts.js" type="module"></script>
 </body>
 
 </html>
