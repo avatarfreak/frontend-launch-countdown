@@ -34,10 +34,10 @@ const elements = [daysElements, hoursElements, minutesElements, secondsElements]
 const durations = [days, hours, minutes, seconds];
 
 //Insert Duration Input
-let daysInput = 7;
-let hoursInput = 0;
-let minutesInput = 0;
-let secondsInput = 5;
+let daysInput = 8;
+let hoursInput = 23;
+let minutesInput = 55;
+let secondsInput = 41;
 
 //Extracting first elements from array
 //Destructuring Elements
